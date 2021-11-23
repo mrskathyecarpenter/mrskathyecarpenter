@@ -84,7 +84,7 @@ jobs:
       
       
 workflows:
-  build:
+  security_test:
     jobs:
       - security_test_25
       - security_test_26
